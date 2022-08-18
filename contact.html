@@ -7,11 +7,25 @@
     <title>Contact Page</title>
 </head>
 <body>
-    <h1>Name: Swapnil Patel</h1>
-    <h2>Email: swapnilpatel6893@gmail.com <br>
-        Phone: 999-999-9999
-    </h2>
-
+    <h1>Swapnil Patel</h1>
+    <p> abc@email.com </p>
+     <p> 999-999-9999 </p>
+    <hr>
+    <div>
+    <!--HTML Forms-->
+    <!--Action takes to index page when we click submit button-->
+    <form action="mailto:abc@gmail.com" method="post" enctype="text/plain">
+        <label for="">Name:</label>
+        <input type="text" name="YourName"> <br>
+        <label for="">Email:</label>
+        <input type="email" name="Email"> <br>
+        <label for="">Message:</label> <br>
+        <textarea name="YourMessage" id="" cols="30" rows="10"></textarea> <br>
+        <label for="">Sign up for newsletter?</label>
+        <input type="checkbox"> <br>
+        <input type="submit">
+    </form>
+    </div>
 
 </body>
 </html>
