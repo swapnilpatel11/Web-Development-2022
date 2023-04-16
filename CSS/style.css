@@ -1,9 +1,14 @@
  body {
     background-color: #CBE4DE;
+    margin: 0;
  }
 
-
- hr {
+div{
+   background-color: #CBE4DE;
+   padding: 20px;
+}
+ 
+hr {
     background-color: #CBE4DE;
     border-style: none;
     border-top-style: dotted;
@@ -11,7 +16,6 @@
     border-width: 5px;
     height: 0px;
     width: 5%;
-    +++
  }
 
  img:hover {
@@ -20,6 +24,7 @@
 
  .heading {
     color: #0E8388;
+    
  }
 
  /* h3{
