@@ -1,0 +1,55 @@
+ body {
+    background-color: #CBE4DE;
+ }
+
+
+ hr {
+    background-color: #CBE4DE;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    height: 0px;
+    width: 5%;
+    +++
+ }
+
+ img:hover {
+    background-color: #194350;
+ }
+
+ .heading {
+    color: #0E8388;
+ }
+
+ /* h3{
+    color: #0E8388;
+ }
+
+ h1{
+    color: #0E8388;
+ }
+
+ h2{
+   color: #0E8388;
+}
+
+ h4{
+    color: #0E8388;
+ } */
+
+ footer {
+    color: #0E8388;
+ }
+
+ #about {
+    color: #194350;
+ }
+
+ .service {
+    color: #194350;
+ }
+
+ td {
+    color: #194350;
+ }
