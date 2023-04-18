@@ -1,14 +1,69 @@
  body {
     background-color: #CBE4DE;
     margin: 0;
+    font-family: 'Rubik Wet Paint', cursive;
+
+
  }
 
-div{
+ .top-container {
    background-color: #CBE4DE;
    padding: 20px;
+   padding-top: 100px;
+   text-align: center;
+   
 }
+ /* #profilepic:hover {
+   background-color: #194350;
+   position: absolute;
+   
+} */
+
+.top-cloud {
+   position: absolute;
+   right: 300px;
+   top: 50px;
+}
+ h1 {
+   width: 10%;
+   margin: 0 auto;
+   color: #0E8388;
+ }
+
+ .bottom-cloud{
+   position: absolute;
+   left: 200px;
+   bottom: 70%;
+ }
  
-hr {
+ .second-container {
+    background-color: #CBE4DE;
+    padding: 20px;
+    font-family: 'Shadows Into Light', cursive;    
+ }
+
+ .third-container {
+    background-color: #CBE4DE;
+    padding: 20px;
+ }
+
+ .fourth-container {
+    background-color: #CBE4DE;
+    padding: 20px;
+ }
+
+ .fifth-container {
+    background-color: #CBE4DE;
+    padding: 20px;
+ }
+
+
+ .bottom-container {
+    background-color: #CBE4DE;
+    padding: 20px;
+ }
+
+ /* hr {
     background-color: #CBE4DE;
     border-style: none;
     border-top-style: dotted;
@@ -16,34 +71,16 @@ hr {
     border-width: 5px;
     height: 0px;
     width: 5%;
- }
-
- img:hover {
-    background-color: #194350;
- }
-
- .heading {
-    color: #0E8388;
-    
- }
-
- /* h3{
-    color: #0E8388;
- }
-
- h1{
-    color: #0E8388;
- }
-
- h2{
-   color: #0E8388;
-}
-
- h4{
-    color: #0E8388;
  } */
 
- footer {
+
+
+ /* .heading {
+    color: #0E8388;
+    margin: 0 auto 0 auto;
+ } */
+
+ /* footer {
     color: #0E8388;
  }
 
@@ -53,8 +90,8 @@ hr {
 
  .service {
     color: #194350;
- }
+ } */
 
- td {
+ /* td {
     color: #194350;
- }
+ } */
