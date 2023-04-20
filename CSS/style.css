@@ -3,7 +3,7 @@
     margin: 0;
     text-align: center;
     font-family: 'Zeyada', cursive;
-    font-size: 
+    
  }
 
  .top-container {
@@ -23,11 +23,13 @@
 hr{
   background-color: #EAF6F6;
     border-style: none;
+    border-bottom: none;
     border-top-style: dotted;
     border-color: grey;
     border-width: 5px;
     height: 0px;
-    width: 5%;
+    width: 4%;
+    margin: 100px auto;
 }
  h1 {
    font-size: 5.625rem;
@@ -41,6 +43,8 @@ hr{
   color: #66BFBF;
   font-family: 'Shadows Into Light', cursive;
   font-weight: normal;
+  text-decoration: underline;
+  padding-bottom: 20px;
  }
  .bottom-cloud{
    position: absolute;
@@ -52,26 +56,45 @@ hr{
   color: #11999E;
  }
 
+ .msg {
+  font-size: 25px;
+ }
  a {
   color: #11999E;
+  margin: 10px 20px;
+  text-decoration: none;
+ }
+
+ a:hover{
+  color: #EAF6F6;
  }
 
  p{
   color: #40514E;
+  line-height: 2;
  }
+
+
  
  .second-container {
-     
+    margin: 100px;
  }
 
  .skills{
   color: #66BFBF;
   font-family: 'Alkatra', cursive;
+ 
  }
 
  .profile{
   color: #66BFBF;
   font-family: 'Alkatra', cursive;
+ }
+
+ .about {
+  text-align: left;
+  margin-left: 25%;
+  margin-right: 20%;
  }
 
  .skill-row{
@@ -98,6 +121,8 @@ hr{
 
  .register{
   color: #EAF6F6;
+  font-size: 0.7rem;
+  padding: 20px 0;
  }
 
  .selenium{
@@ -144,6 +169,7 @@ hr{
 
  .bottom-container {
     background-color: #66BFBF;
-    font-family: 'Chivo Mono', monospace;;
+    font-family: 'Chivo Mono', monospace;
+    padding: 50px 0 20px;
  }
 
